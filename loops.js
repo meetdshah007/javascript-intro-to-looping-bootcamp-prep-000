@@ -1,7 +1,7 @@
 function forLoop(arr) {
   const len = arr.length;
   arr.push("I am a strange loop.");
-  for(let i=0; i<25; i++) {
+  for(let i=0; i<24; i++) {
     arr.push(`I am ${i+1} strange loop${i===0 ? '' : 's'}.`);
   }
   console.log(arr);
