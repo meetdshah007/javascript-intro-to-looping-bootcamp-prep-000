@@ -11,6 +11,7 @@ function whileLoop(n) {
     console.log(`Count${n}`);
     n--;
   }
+  return "done";
 }
 
 function doWhileLoop(num) {
